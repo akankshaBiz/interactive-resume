@@ -1,0 +1,224 @@
+.container{
+
+    background-color: #252424;
+    box-shadow: 3px 3px 3px 5px grey;
+
+}
+.myIntro{
+
+    margin: 2% !important;
+    background-color: #0498a7;
+    border-radius: 4px;
+    padding: 2% !important;
+    color: white;
+    font-size: medium;
+    font-family: cursive;
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  .profile_img{
+
+    /* clip: rect(0px,60px,500px,0px) !important; */
+    width: 40vw;
+    /* background-size: cover; */
+    height: 40vh !important;
+    /* color: black; */
+
+
+  }
+  .carousel-inner > .item {
+    border-radius: 4px;
+  }
+.myText{
+   height: 280px;
+  font-size: medium;
+  font-weight: 700;
+  color: black !important;
+  box-shadow: 2px 2px 2px grey;
+  text-align: left !important;
+  }
+  .myText1{
+   height: 400px;
+  font-size: medium;
+  font-weight: 700;
+  color: black !important;
+  box-shadow: 2px 2px 2px grey;
+  text-align: left !important;
+  }
+  .work_back{
+    height: 50vh !important;
+    
+box-shadow: 2px 2px 2px grey;
+    opacity: 0.5;
+width: 60vw !important;
+  }
+  .college_back{
+     height: 70vh !important;
+    
+box-shadow: 2px 2px 2px grey;
+    opacity: 0.7;
+width: 60vw !important;
+  }
+  .WorkProjects{
+    margin: 2%;
+    background-color: rgba(241, 128, 11, 0.97);
+    padding: 5%;
+    border-radius: 4px;
+  }
+  .projects{
+  margin: 2%;
+    background-color: rgba(7, 167, 130, 0.97);
+    padding: 5%;
+    border-radius: 4px;
+  }
+  .rwd-table {
+   margin: 2%;
+  width: 70vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 9.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46627f;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+@media (max-width: 600px) {
+  .myText{
+  font-size: smaller;
+  font-weight: 100;
+  }
+  .myText1{
+  font-size: smaller;
+  font-weight: 100;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
+.headerText{
+  color: white;
+  font-weight: 800;
+}
+.skillProgress{
+  margin: 5%;
+}
+.socialIcon{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+
+div.fade-in-animate {
+  color: white;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    25% { opacity: 0.25; }
+    50% { opacity: 0.5; }
+    75% { opacity: 0.75; }
+    100%  { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
