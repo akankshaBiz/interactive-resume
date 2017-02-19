@@ -35,7 +35,7 @@
   }
 .myText{
    height: 280px;
-  font-size: medium;
+  font-size: large;
   font-weight: 700;
   color: black !important;
   box-shadow: 2px 2px 2px grey;
@@ -43,14 +43,14 @@
   }
   .myText1{
    height: 400px;
-  font-size: medium;
+  font-size: large;
   font-weight: 700;
   color: black !important;
   box-shadow: 2px 2px 2px grey;
   text-align: left !important;
   }
   .work_back{
-    height: 50vh !important;
+    height: 60vh !important;
     
 box-shadow: 2px 2px 2px grey;
     opacity: 0.5;
@@ -184,6 +184,8 @@ h1 {
 
 div.fade-in-animate {
   color: white;
+  font-size: large;
+  font-family: cursive;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
       -ms-animation: fadein 2s; /* Internet Explorer */
